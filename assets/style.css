@@ -1,0 +1,77 @@
+body, html {
+  font-family: "Open Sans", "Helvetica Neue", "Oxygen", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+#container{
+	width:1000px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#sidebar {
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	top: 70px;
+	color: #5485bb;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: "Oxygen";
+}
+
+#menu {
+
+}
+
+.sidebar-text {
+	padding: 10px;
+	letter-spacing: 0.4px;
+	font-weight: 400;
+	font-size: 14px;
+  margin-left: 45px;
+}
+
+.sidebar-text:hover .sidebar-text{
+  color: #d3d3d3;
+}
+
+#logo img{
+  float: left;
+  height: 80px;
+  margin-left: 50px;
+}
+
+#logo {
+  height: 80px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: blue;
+}
+
+#content {
+  float: right;
+	position: relative;
+	width: 50%;
+	right: 200px;
+	margin-top: 80px;
+}
+
+.textbox {
+
+}
+
+p, ul {
+    margin-top: 0px;
+}
