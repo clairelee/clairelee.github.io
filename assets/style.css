@@ -20,6 +20,17 @@ body, html {
 	font-family: "Oxygen";
 }
 
+#mainsidebar {
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	top: 70px;
+	color: #5485bb;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: "Oxygen";
+}
+
 #menu {
 
 }
@@ -66,6 +77,18 @@ a:hover{
 	width: 50%;
 	right: 200px;
 	margin-top: 80px;
+}
+
+#maincontent {
+  float: right;
+	position: relative;
+	width: 50%;
+	right: 300px;
+	margin-top: 80px;
+}
+
+#content img {
+	padding-right: 15px;
 }
 
 .textbox {
