@@ -79,11 +79,20 @@ a:hover{
 	margin-top: 80px;
 }
 
+#new_content {
+  float: right;
+	position: relative;
+	width: 50%;
+	right: 150px;
+	margin-top: 80px;
+}
+
 #maincontent {
   float: right;
 	position: relative;
 	width: 50%;
-	right: 300px;
+	/*right: 300px;*/
+  right: 200px;
 	margin-top: 80px;
 }
 
